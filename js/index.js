@@ -87,9 +87,9 @@ dex.push(new Pokemon('029','bluncy', ['normal'], ['magic guard', 'cute charm'], 
 // Bloonder
 dex.push(new Pokemon('030','bloonder', ['normal'], ['magic guard', 'static'], 180, 50, 15, 120, 75, 92, []));
 // Pibu
-dex.push(new Pokemon('031','pibu', ['normal'], ['conductor', 'lightningrod'], 25, 35, 35, 45, 15, 60, []));
+dex.push(new Pokemon('031','pibu', ['normal'], ['conductor (custom: allows electric moves to hit ground type pokemon)', 'lightningrod'], 25, 35, 35, 45, 15, 60, []));
 // Pibu-combined
-dex.push(new Pokemon('032','pibu-combined', ['normal', 'electric'], ['conductor', 'lightningrod'], 30, 45, 40, 55, 25, 75, []));
+dex.push(new Pokemon('032','pibu-combined', ['normal', 'electric'], ['conductor (custom: allows electric moves to hit ground type pokemon)', 'lightningrod'], 30, 45, 40, 55, 25, 75, []));
 // Krubble
 dex.push(new Pokemon('033','krubble', ['water', 'rock'], ['sticky hold', 'water bubble'], 45, 50, 30, 50, 55, 40, []));
 // Krigid
@@ -173,7 +173,7 @@ dex.push(new Pokemon('900','missingno', ['glitch', 'bird'], [], 178, 140, 10, 80
 // THUFIZER
 dex.push(new Pokemon('901','thufizer', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
 // Gorochu
-dex.push(new Pokemon('904','gorochu', ['electric', 'fighting'], ['conductor'], 90, 130, 75, 110, 95, 100, ['power surge', 'knock off', 'close combat', 'ice punch', 'volt switch', 'superpower', 'swords dance', 'thunderbolt', 'thunder', 'thunder wave', 'volt tackle']));
+dex.push(new Pokemon('904','gorochu', ['electric', 'fighting'], ['conductor (custom: allows electric moves to hit ground type pokemon)'], 90, 130, 75, 110, 95, 100, ['power surge', 'knock off', 'close combat', 'ice punch', 'volt switch', 'superpower', 'swords dance', 'thunderbolt', 'thunder', 'thunder wave', 'volt tackle']));
 
 /* ADDING IN FUTURE UPDATE
   // Dunsparce (I like the idea of this being a regional)
