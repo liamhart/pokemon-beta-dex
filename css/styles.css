@@ -1,0 +1,40 @@
+/* Body */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #fff;
+  background-color: hsl(218, 28%, 13%);
+  padding: 4% 10%;
+}
+
+.dex-box {
+  position: relative;
+  background-color: hsl(219, 30%, 18%);
+  box-shadow: 5px 5px 10px hsl(216, 53%, 9%);
+  border-radius: 10px;
+  font-size: 0.9rem;
+  text-align: left;
+  padding: 5% 10% 5% 10%; /* top right bottom left */
+  margin-bottom: 10%;
+}
+
+.dex-entry {
+  margin-bottom: 10%;
+}
+
+.dex-profile {
+  width: 80%;
+  padding-top: 10%;
+}
+
+.stat-value {
+  float: right;
+}
+
+.stat-bar {
+  position: relative;
+  height: 10px;
+  margin-top: 5.8px;
+  margin-bottom: 27.3px;
+}
