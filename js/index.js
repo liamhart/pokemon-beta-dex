@@ -53,11 +53,11 @@ dex.push(new Pokemon('012','unihoot', ['normal', 'flying'], ['insomnia', 'aerila
 // Solehunt
 dex.push(new Pokemon('013','solehunt', ['normal', 'flying'], ['insomnia', 'aerilate'], 75, 126, 55, 46, 86, 110, ['brave bird', 'swords dance', 'double edge', 'hypnosis', 'acrobatics', 'return', 'frustration', 'night slash', 'aerial ace']));
 // Natu
-dex.push(new Pokemon('014','natu', ['psychic'], ['magic bounce', 'keen eye'], 40, 50, 45, 70, 45, 70, []));
+dex.push(new Pokemon('014','psybid', ['psychic'], ['magic bounce', 'keen eye'], 40, 50, 45, 70, 45, 70, []));
 // Yatu
-dex.push(new Pokemon('015','yatu', ['psychic'], ['magic bounce', 'keen eye'], 50, 60, 55, 80, 65, 85, []));
+dex.push(new Pokemon('015','psybir', ['psychic'], ['magic bounce', 'keen eye'], 50, 60, 55, 80, 65, 85, []));
 // Xatu
-dex.push(new Pokemon('016','xatu', ['psychic'], ['magic bounce', 'keen eye'], 65, 75, 70, 95, 70, 95, []));
+dex.push(new Pokemon('016','psybird', ['psychic'], ['magic bounce', 'keen eye'], 65, 75, 70, 95, 70, 95, []));
 // Midoba
 dex.push(new Pokemon('017','midoba', ['bug'], ['swarm', 'early bird'], 35, 50, 20, 30, 50, 85, []));
 // Tripstar
@@ -83,9 +83,9 @@ dex.push(new Pokemon('027','feniti', ['bug'], ['shield dust', 'fur coat'], 45, 6
 // Padefuerza
 dex.push(new Pokemon('028','padefuerza', ['bug', 'flying'], ['sheild dust', 'tinted lens'], 65, 70, 50, 120, 90, 95, []));
 // Bluncy
-dex.push(new Pokemon('029','bluncy', ['normal'], ['magic guard', 'cute charm'], 70, 35, 5, 50, 15, 12, []));
+dex.push(new Pokemon('029','bluncy', ['flying'], ['magic guard', 'cute charm'], 70, 35, 5, 50, 15, 12, []));
 // Bloonder
-dex.push(new Pokemon('030','bloonder', ['normal'], ['magic guard', 'static'], 180, 50, 15, 120, 75, 92, []));
+dex.push(new Pokemon('030','bloonder', ['flying'], ['magic guard', 'static'], 180, 50, 15, 120, 75, 92, []));
 // Pibu
 dex.push(new Pokemon('031','pibu', ['normal'], ['conductor (custom: allows electric moves to hit ground type pokemon)', 'lightningrod'], 25, 35, 35, 45, 15, 60, []));
 // Pibu-combined
@@ -101,7 +101,7 @@ dex.push(new Pokemon('036','smola', ['water'], ['serene grace', 'regenerator'], 
 // Manboo
 dex.push(new Pokemon('037','manboo', ['water'], ['serene grace', 'regenerator'], 75, 55, 70, 65, 75, 85, []));
 // Manbomola
-dex.push(new Pokemon('038','manbomola', ['water', 'dark'], ['serene grace', 'regenerator'], 105, 65, 80, 75, 90, 89, ['scald', 'body slam', 'recover', 'toxic', 'heal bell', 'memento', 'light screen', 'reflect', 'wish']));
+dex.push(new Pokemon('038','manbomola', ['water', 'fighting'], ['serene grace', 'regenerator'], 105, 65, 80, 75, 90, 89, ['scald', 'body slam', 'recover', 'toxic', 'heal bell', 'memento', 'light screen', 'reflect', 'wish']));
 // Anchorage
 dex.push(new Pokemon('039','anchorage', ['water', 'steel'], ['strong jaw', 'steelworker'], 55, 114, 100, 40, 60, 78, []));
 // Mankora
@@ -137,7 +137,7 @@ dex.push(new Pokemon('054','hupii', ['normal'], ['magic guard', 'unaware'], 140,
 // Breyer
 dex.push(new Pokemon('055','breyer', ['posion','rock'], ['stupefy (custom: halve enemy speed)', 'corrosion'], 85, 80, 82, 80, 82, 55, []));
 // Terratoma
-dex.push(new Pokemon('056','terratoma', ['flying', 'ground'], ['sand rush', 'reckless'], 55, 122, 65, 45, 54, 114, []));
+dex.push(new Pokemon('056','terratoma', ['psychic', 'ground'], ['sand rush', 'reckless'], 55, 122, 65, 45, 54, 114, []));
 // Ponchama
 dex.push(new Pokemon('057','ponchama', ['ice'], ['refrigerate', 'unaware'], 125, 130, 80, 85, 40, 75, []));
 // Weirduck
@@ -163,13 +163,13 @@ dex.push(new Pokemon('895','enlebi-u', ['psychic', 'fairy'], ['divine song (cust
 // Misingno
 dex.push(new Pokemon('896','missingno', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
 // M
-dex.push(new Pokemon('897','missingno', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
+dex.push(new Pokemon('897','m', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
 // XFKLJAJP8
-dex.push(new Pokemon('898','missingno', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
+dex.push(new Pokemon('898','XFKLJAJP8', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
 // Missingno-water
-dex.push(new Pokemon('899','missingno', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
+dex.push(new Pokemon('899','missingno-water', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
 // Missingno-rock
-dex.push(new Pokemon('900','missingno', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
+dex.push(new Pokemon('900','missingno-rock', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
 // THUFIZER
 dex.push(new Pokemon('901','thufizer', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
 // Gorochu
@@ -208,7 +208,7 @@ dex.push(new Pokemon('904','gorochu', ['electric', 'fighting'], ['conductor (cus
 
 for(var i = 0; i < dex.length; i++) {
   /* Add the container */
-  $("body").append('<div class="row"> <div class="col-lg-12"> <div class="dex-box"> <h1>' + capitalizeFirstLetter(dex[i].NAME) + ' (' + dex[i].TYPE + ')</span>' + '</h1><div class="row"> <div class="col-lg-3"> <img class="dex-profile" src="spritesV2/' + dex[i].ID + '.png"> </div><div class="col-lg-6"> <div class="row"> <div class="col-lg-4"> <p>HP</p><p>Attack</p><p>Defense</p><p>Sp. Attack</p><p>Sp. Defense</p><p>Speed</p></div><div id="stat-numeric-' + dex[i].ID + '" class="col-lg-1"> </div><div id="stat-visual-' + dex[i].ID + '" class="col-lg-7"> </div></div></div><div class="col-lg-3"> <p class="dex-entry">Ability: ' + dex[i].ABILITY + '</p><p>Notable Moves: ' + dex[i].MOVES + '</p></div></div></div></div></div>')
+  $("body").append('<div class="row"> <div class="col-lg-12"> <div class="dex-box"> <h1>' + capitalizeFirstLetter(dex[i].NAME) + ' (' + dex[i].TYPE + ')</span>' + '</h1><div class="row"> <div class="col-lg-3"> <img class="dex-profile" src="images/spritesV2/' + dex[i].ID + '.png"> </div><div class="col-lg-6"> <div class="row"> <div class="col-lg-4"> <p>HP</p><p>Attack</p><p>Defense</p><p>Sp. Attack</p><p>Sp. Defense</p><p>Speed</p></div><div id="stat-numeric-' + dex[i].ID + '" class="col-lg-1"> </div><div id="stat-visual-' + dex[i].ID + '" class="col-lg-7"> </div></div></div><div class="col-lg-3"> <p class="dex-entry">Ability: ' + dex[i].ABILITY + '</p><p>Notable Moves: ' + dex[i].MOVES + '</p></div></div></div></div></div>')
 
   for(var key in dex[i].stats) {
     $("#stat-numeric-" + dex[i].ID).append('<p class="stat-value">' + dex[i].stats[key] + '</p>');
