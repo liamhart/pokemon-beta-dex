@@ -173,7 +173,7 @@ dex.push(new Pokemon('900','missingno', ['glitch', 'bird'], [], 178, 140, 10, 80
 // THUFIZER
 dex.push(new Pokemon('901','thufizer', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
 // Gorochu
-dex.push(new Pokemon('902','gorochu', ['electric', 'fighting'], ['conductor'], 90, 130, 75, 110, 95, 100, ['power surge', 'knock off', 'close combat', 'ice punch', 'volt switch', 'superpower', 'swords dance', 'thunderbolt', 'thunder', 'thunder wave', 'volt tackle']));
+dex.push(new Pokemon('904','gorochu', ['electric', 'fighting'], ['conductor'], 90, 130, 75, 110, 95, 100, ['power surge', 'knock off', 'close combat', 'ice punch', 'volt switch', 'superpower', 'swords dance', 'thunderbolt', 'thunder', 'thunder wave', 'volt tackle']));
 
 /* ADDING IN FUTURE UPDATE
   // Dunsparce (I like the idea of this being a regional)
