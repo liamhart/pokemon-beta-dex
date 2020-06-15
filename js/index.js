@@ -208,7 +208,7 @@ dex.push(new Pokemon('904','gorochu', ['electric', 'fighting'], ['conductor (cus
 
 for(var i = 0; i < dex.length; i++) {
   /* Add the container */
-  $("body").append('<div class="row"> <div class="col-lg-12"> <div class="dex-box"> <h1>' + capitalizeFirstLetter(dex[i].NAME) + ' (' + dex[i].TYPE + ')</span>' + '</h1><div class="row"> <div class="col-lg-3"> <img class="dex-profile" src="images/spritesV2/' + dex[i].ID + '.png"> </div><div class="col-lg-6"> <div class="row"> <div class="col-lg-4"> <p>HP</p><p>Attack</p><p>Defense</p><p>Sp. Attack</p><p>Sp. Defense</p><p>Speed</p></div><div id="stat-numeric-' + dex[i].ID + '" class="col-lg-1"> </div><div id="stat-visual-' + dex[i].ID + '" class="col-lg-7"> </div></div></div><div class="col-lg-3"> <p class="dex-entry">Ability: ' + dex[i].ABILITY + '</p><p>Notable Moves: ' + dex[i].MOVES + '</p></div></div></div></div></div>')
+  $("body").append('<div class="row"> <div class="col-lg-12"> <div class="dex-box"> <h1>' + capitalizeFirstLetter(dex[i].NAME) + ' (' + dex[i].TYPE + ')</span>' + '</h1><div class="row"> <div class="col-lg-3"> <img class="dex-profile" src="spritesV2/' + dex[i].ID + '.png"> </div><div class="col-lg-6"> <div class="row"> <div class="col-lg-4"> <p>HP</p><p>Attack</p><p>Defense</p><p>Sp. Attack</p><p>Sp. Defense</p><p>Speed</p></div><div id="stat-numeric-' + dex[i].ID + '" class="col-lg-1"> </div><div id="stat-visual-' + dex[i].ID + '" class="col-lg-7"> </div></div></div><div class="col-lg-3"> <p class="dex-entry">Ability: ' + dex[i].ABILITY + '</p><p>Notable Moves: ' + dex[i].MOVES + '</p></div></div></div></div></div>')
 
   for(var key in dex[i].stats) {
     $("#stat-numeric-" + dex[i].ID).append('<p class="stat-value">' + dex[i].stats[key] + '</p>');
