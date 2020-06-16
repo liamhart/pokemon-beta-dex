@@ -185,7 +185,7 @@ dex.push(new Pokemon('078','clucken', ['fighting', 'flying'], ['defiant', 'iron 
 // Mocoboa
 dex.push(new Pokemon('079','mocoboa', ['normal', 'flying'], ['keen eye', 'insomnia'], 45, 60, 55, 45, 55, 77, []));
 // Mockedodlede
-dex.push(new Pokemon('080','mockedodlede', ['normal', 'flying'], ['keen eye', 'parental bond'], 70, 90, 65, 55, 75, 117, []));
+dex.push(new Pokemon('080','mockedodlede', ['dark', 'flying'], ['keen eye', 'parental bond'], 70, 90, 65, 55, 75, 117, []));
 // Clute
 dex.push(new Pokemon('081','clute', ['fairy', 'flying'], ['serene grace', 'amplifier (custom: powers up sound based moves by 1.5x)'], 70, 35, 55, 79, 69, 88, []));
 // Midgeridoo
@@ -197,7 +197,7 @@ dex.push(new Pokemon('084','electora', ['electric'], ['lightning rod', 'guts'], 
 // Raitora
 dex.push(new Pokemon('085','raitora', ['electric'], ['lightning rod', 'guts'], 105, 142, 85, 102, 80, 94, []));
 // Zuntora
-dex.push(new Pokemon('086','zuntora', ['electric'], ['lightning rod', 'quick feet'], 105, 102, 75, 152, 100, 74, []));
+dex.push(new Pokemon('086','zuntora', ['dark', 'electric'], ['lightning rod', 'quick feet'], 105, 102, 75, 152, 100, 74, []));
 // Ma'dame
 dex.push(new Pokemon('087',"ma'dame", ['psychic', 'flying'], ['pressure', 'gale wings'], 95, 105, 88, 131, 90, 94, []));
 // Taenl
