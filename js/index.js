@@ -201,7 +201,7 @@ dex.push(new Pokemon('086','zuntora', ['electric'], ['lightning rod', 'quick fee
 // Ma'dame
 dex.push(new Pokemon('087',"ma'dame", ['psychic', 'flying'], ['pressure', 'gale wings'], 95, 105, 88, 131, 90, 94, []));
 // Taenl
-dex.push(new Pokemon('088','taenl', ['normal'], ['possi (custom: after 2 turns, friends arrive to help [see taenl-possi])'], 50, 76, 60, 55, 100, 72, []));
+dex.push(new Pokemon('088','taenl', ['normal'], ['possi (custom: after 2 turns, friends arrive to help)'], 50, 76, 60, 55, 100, 72, []));
 // Caturse
 dex.push(new Pokemon('089','cacturse', ['grass', 'ghost'], ['rough skin', 'poltergeist (custom: ghost moves can hit normal type pokemon)'], 45, 90, 188, 50, 90, 55, []));
 // Dinomote
