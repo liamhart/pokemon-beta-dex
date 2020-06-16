@@ -107,9 +107,9 @@ dex.push(new Pokemon('039','anchorage', ['water', 'steel'], ['strong jaw', 'stee
 // Mankora
 dex.push(new Pokemon('040','mankora', ['water', 'steel'], ['strong jaw', 'steelworker'], 75, 144, 110, 60, 70, 81, ['iron head', 'waterfall', 'liquidation', 'crunch', 'ice fang', 'anchor shot', 'agility']));
 // Mokuchow
-dex.push(new Pokemon('041','mokuchow', ['water'], ['illuminate', 'hydration'], 46, 45, 60, 75, 70, 68, []));
+dex.push(new Pokemon('041','mokuchow', ['water'], ['illuminate', 'hydration'], 90, 45, 50, 50, 60, 68, []));
 // Lunchen
-dex.push(new Pokemon('042','lunchen', ['water'], ['illuminate', 'hydration'], 76, 55, 90, 105, 80, 78, []));
+dex.push(new Pokemon('042','lunchen', ['water'], ['illuminate', 'hydration'], 140, 55, 70, 70, 80, 78, []));
 // Grotesk
 dex.push(new Pokemon('043','grotesk', ['dark', 'water'], ['adaptability', 'volt absorb'], 55, 50, 45, 75, 60, 72, []));
 // Crevangler
@@ -156,6 +156,60 @@ dex.push(new Pokemon('063','tortartle', ['water'], ['torrent','water veil'], 110
 dex.push(new Pokemon('064','UNNAMED', ['normal'], ['adaptability'], 100, 85, 70, 55, 75, 78, []));
 // Wylabell
 dex.push(new Pokemon('065','wylabell', ['grass', 'psychic'], ['wonder skin', 'prankster'], 110, 70, 80, 50, 60, 120, ['leaf blade', 'swords dance', 'psycho cut', 'sleep powder', 'synthesis', 'knock off', 'razor leaf', 'curse']));
+// Gohng
+dex.push(new Pokemon('066','gohng', ['fighting'], ['justified', 'scrappy'], 44, 85, 70, 35, 70, 62, []));
+// Kaporra
+dex.push(new Pokemon('067','kaporra', ['fighting'], ['justified', 'scrappy'], 74, 125, 90, 55, 80, 82, []));
+// Rinring
+dex.push(new Pokemon('068','rinring', ['dark'], ['competitive', 'infiltrator'], 50, 45, 40, 78, 75, 78, []));
+// Bellung
+dex.push(new Pokemon('069','bellung', ['dark'], ['competitive', 'infiltrator'], 70, 85, 60, 118, 85, 108, []));
+// Bombseeka
+dex.push(new Pokemon('070','bombseeka', ['fire'], ['bomber (custom: powers up ball moves [those blocked by bulletproof] by 1.5x)', 'fire lane (custom: raise speed after using a fire-type move)'], 90, 109, 70, 115, 75, 95, []));
+// Puddin
+dex.push(new Pokemon('071','puddin', ['fairy'], ['sweet veil', 'misty surge'], 55, 50, 65, 78, 90, 30, []));
+// Custern
+dex.push(new Pokemon('072','custern', ['fairy'], ['sweet veil', 'misty surge'], 65, 55, 80, 88, 115, 45, []));
+// Meringen
+dex.push(new Pokemon('073','meringen', ['fairy'], ['sweet veil', 'misty surge'], 75, 65, 90, 98, 145, 55, []));
+// Trunpet
+dex.push(new Pokemon('074','trunpet', ['ground'], ['sap sipper', 'intimidate'], 80, 65, 55, 30, 50, 46, []));
+// Grunder
+dex.push(new Pokemon('075','grunder', ['ground'], ['sap sipper', 'intimidate'], 110, 85, 75, 40, 70, 56, []));
+// Uluphant
+dex.push(new Pokemon('076','uluphant', ['ground', 'dark'], ['sap sipper', 'intimidate'], 130, 145, 85, 50, 80, 66, []));
+// Tookey
+dex.push(new Pokemon('077','tookey', ['fighting', 'flying'], ['defiant', 'iron fist'], 55, 70, 45, 30, 75, 59, []));
+// Clucken
+dex.push(new Pokemon('078','clucken', ['fighting', 'flying'], ['defiant', 'iron fist'], 75, 115, 65, 55, 105, 99, []));
+// Mocoboa
+dex.push(new Pokemon('079','mocoboa', ['normal', 'flying'], ['keen eye', 'insomnia'], 45, 60, 55, 45, 55, 77, []));
+// Mockedodlede
+dex.push(new Pokemon('080','mockedodlede', ['normal', 'flying'], ['keen eye', 'parental bond'], 70, 90, 65, 55, 75, 117, []));
+// Clute
+dex.push(new Pokemon('081','clute', ['fairy', 'flying'], ['serene grace', 'amplifier (custom: powers up sound based moves by 1.5x)'], 70, 35, 55, 79, 69, 88, []));
+// Midgeridoo
+dex.push(new Pokemon('082','midgeridoo', ['fairy', 'flying'], ['serence grace', 'amplifier (custom: powers up sound based moves by 1.5x)'], 115, 45, 75, 129, 89, 108, []));
+// Kotora
+dex.push(new Pokemon('083','kotora', ['electric'], ['lightning rod', 'guts'], 65, 72, 55, 62, 50, 64, []));
+// Electora
+dex.push(new Pokemon('084','electora', ['electric'], ['lightning rod', 'guts'], 75, 92, 65, 82, 60, 84, []));
+// Raitora
+dex.push(new Pokemon('085','raitora', ['electric'], ['lightning rod', 'guts'], 105, 142, 85, 102, 80, 94, []));
+// Zuntora
+dex.push(new Pokemon('086','zuntora', ['electric'], ['lightning rod', 'quick feet'], 105, 102, 75, 152, 100, 74, []));
+// Ma'dame
+dex.push(new Pokemon('087',"ma'dame", ['psychic', 'flying'], ['pressure', 'gale wings'], 95, 105, 88, 131, 90, 94, []));
+// Taenl
+dex.push(new Pokemon('088','taenl', ['normal'], ['possi (custom: after 2 turns, friends arrive to help [see taenl-possi])'], 50, 76, 60, 55, 100, 72, []));
+// Caturse
+dex.push(new Pokemon('089','cacturse', ['grass', 'ghost'], ['rough skin', 'poltergeist (custom: ghost moves can hit normal type pokemon)'], 45, 90, 188, 50, 90, 55, []));
+// Dinomote
+dex.push(new Pokemon('090','dinomote', ['dragon'], ['dracolate (custom: dragon type pixilate)'], 98, 104, 80, 144, 40, 92, []));
+
+
+
+
 // Enlebi
 dex.push(new Pokemon('894','enlebi', ['psychic'], ['pressure'], 100, 100, 100, 100, 100, 100, []));
 // Enlebi-unbound
@@ -174,6 +228,12 @@ dex.push(new Pokemon('900','missingno-rock', ['glitch', 'bird'], [], 178, 140, 1
 dex.push(new Pokemon('901','thufizer', ['glitch', 'bird'], [], 178, 140, 10, 80, 40, 54, []));
 // Gorochu
 dex.push(new Pokemon('904','gorochu', ['electric', 'fighting'], ['conductor (custom: allows electric moves to hit ground type pokemon)'], 90, 130, 75, 110, 95, 100, ['power surge', 'knock off', 'close combat', 'ice punch', 'volt switch', 'superpower', 'swords dance', 'thunderbolt', 'thunder', 'thunder wave', 'volt tackle']));
+
+
+
+
+
+
 
 /* ADDING IN FUTURE UPDATE
   // Dunsparce (I like the idea of this being a regional)
